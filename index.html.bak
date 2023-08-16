@@ -5,11 +5,11 @@
 
 <head>
   <link rel="shortcut icon" href="src/assets/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="src/assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="src/assets/yinyang.ico" type="image/x-icon">
   <meta charset="utf-8">
   <meta name="og:site_name" content="Custom Maid Series Best Maids Sorting">
   <meta name="og:description" content="A simple website for sorting Your Favorite Meido in a formatted list. Let's see who will be your favorite maid.">
-  <meta name="og:image" content="content="src/assets/og-image.png">
+  <meta name="og:image" content="content="src/assets/favicon.ico">
   <title>Custom Maid Series Best Maids Sorting</title>
 
   <link rel="stylesheet" type="text/css" href="src/css/reset.css">
