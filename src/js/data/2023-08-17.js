@@ -12,11 +12,9 @@ dataSet[dataSetVersion].options = [
       { name: "Custom Order Maid 3D2", key: "COM3D2" },
       { name: "Custom Maid Online (Unnamed)", key: "CMO" },
      ]
-  },
   {
-	   {
     name: "Filter by Maids Types",
-    key: "series",
+    key: "types",
     tooltip: "Check this to restrict to maids types",
     checked: false,
     sub: [
@@ -27,7 +25,6 @@ dataSet[dataSetVersion].options = [
       { name: "Secretary maids", tooltip: "A professional maids who guide and help you everything in the first of gameplay", key: "hisou" },
       { name: "Other", tooltip: "other maid that appear in somewhere", key: "other" },
      ]
-  },
   {
     name: "Filter by DLC/Append",
     key: "dlc",
@@ -35,16 +32,12 @@ dataSet[dataSetVersion].options = [
     checked: false,
     sub: [ { name: "Personality Packs (CM3D2 ) ", key: "cmcp" }, { name: "Personality Packs (COM3D2) ", key: "comcp" }, { name: "EX Personality", key: "cpex" }, { name: "CM3D2+ (Act.1) ", key: "act1" }, { name: "Act.2", key: "act2" }, { name: "Act 3.1", key: "act31" }, { name: "GP-01", key: "gp01" }, { name: "GP-02", key: "gp02" }, { name: "Monthy Pack", key: "mp" }, { name: "Official Fanbook", key: "fanbook1" }, { name: "Official Fanbook 2", key: "fanbook2" }
     ]
-	 },
   {
     name: "Remove  Unnamed Maids",
     key: "nameless",
     tooltip: "Check this to remove all characters without canonical names.",
     checked: false
   }
-];
-]
-	 },
   {
     name: "Remove uneditable Maids",
     key: "noedit",
@@ -54,11 +47,11 @@ dataSet[dataSetVersion].options = [
 ];
 dataSet[dataSetVersion].characterData = [
   {
-    name: "Hakurei Reimu",
-    img: "c5DqpgX.png",
+    name: "Seidou Maria",
+    img: "comtrio01.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4"]
+      series: [ "COM3D2", "trio", ],
+      
     }
   },
   {
