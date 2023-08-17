@@ -8,9 +8,9 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain series.",
     checked: false,
     sub: [
-      { name: "Custom Maid 3D2", key: "CM3D2" },
-      { name: "Custom Order Maid 3D2", key: "COM3D2" },
-      { name: "Custom Maid Online (Unnamed)", key: "CMO" },
+      { name: "Custom Maid 3D2", key: "cm3d2" },
+      { name: "Custom Order Maid 3D2", key: "com3d2" },
+      { name: "Custom Maid Online (Unnamed)", key: "cmo" },
      ]
   },
   {
@@ -54,22 +54,19 @@ dataSet[dataSetVersion].characterData = [
     name: "Seidou Maria",
     img: "comtrio01.png",
     opts: {
-      series: [ "COM3D2", "trio", ],
-      dlc: false
+      series: [ "COM3D2", "trio",],
     }
   },
   {
     name: "Himuro Mafuyu",
     img: "comtrio02.png",
     opts: {
-      series: [ "COM3D2", "trio", ],
-      dlc: false
+      series: [ "COM3D2", "trio",],
     }
   },
   {
     name: "Takisawa Risa",
     img: "comtrio03.png",
     opts: {
-      series: [ "COM3D2", "trio", ],
-      dlc: false
+      series: [ "COM3D2", "trio",],
 ];
